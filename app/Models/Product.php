@@ -32,7 +32,7 @@ class Product extends Model
 		'provider' => 'required',
     ];
 
-    protected $perPage = 20;
+    protected $perPage = 3;
 
     /**
      * Attributes that should be mass-assignable.

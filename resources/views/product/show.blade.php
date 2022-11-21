@@ -10,11 +10,12 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
+                        <br><br><br>
                         <div class="float-left">
-                            <span class="card-title">Show Product</span>
+                            <span class="card-title">Ver Producto</span>
                         </div>
                         <div class="float-right">
-                            <a class="btn btn-primary" href="{{ route('products.index') }}"> Back</a>
+                            <a class="btn btn-primary" href="{{ route('products.index') }}"> Volver</a>
                         </div>
                     </div>
 
@@ -37,7 +38,7 @@
                             {{ $product->size }}
                         </div>
                         <div class="form-group">
-                            <strong>Type:</strong>
+                            <strong>Imagen:</strong>
                             {{ $product->type }}
                         </div>
                         <div class="form-group">
