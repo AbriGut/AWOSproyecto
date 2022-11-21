@@ -92,6 +92,12 @@
                   <span class="nav-link-text">Productos</span>
                 </a>
             </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="{{ url('youtube') }}">
+                      <i class="ni ni-bullet-list-67 text-default"></i>
+                      <span class="nav-link-text">YouTube</span>
+                    </a>
+                </li>
         </ul>
           <!-- Divider -->
           <hr class="my-3">
@@ -118,7 +124,7 @@
               </div>
             </div>
             <button type="button" class="close" data-action="search-close" data-target="#navbar-search-main" aria-label="Close">
-              <span aria-hidden="true">×</span>
+              <span aria-hidden="true"></span>
             </button>
           </form>
           <!-- Navbar links -->

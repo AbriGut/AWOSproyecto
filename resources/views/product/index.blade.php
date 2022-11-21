@@ -15,7 +15,7 @@
                             </span>
                              <div class="float-right">
                                 <a href="{{ route('products.create') }}" class="btn btn-primary btn-sm float-right"  data-placement="left">
-                                  {{ __('Create New') }}
+                                  {{ __('Crear producto') }}
                                 </a>
                               </div>
                         </div>
@@ -31,14 +31,13 @@
                             <table class="table table-striped table-hover">
                                 <thead class="thead">
                                     <tr>
-                                        <th>No</th>
-                                        
-										<th>Name</th>
-										<th>Price</th>
+                                        <th>No</th>   
+										<th>Nombre</th>
+										<th>Precio</th>
 										<th>Stock</th>
-										<th>Size</th>
-										<th>Type</th>
-										<th>Provider</th>
+										<th>Tamaño</th>
+										<th>Tipo</th>
+										<th>Proveedor</th>
 
                                         <th></th>
                                     </tr>
