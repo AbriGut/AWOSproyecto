@@ -37,10 +37,6 @@
                             {{ $product->size }}
                         </div>
                         <div class="form-group">
-                            <strong>Imagen:</strong>
-                            {{ $product->type }}
-                        </div>
-                        <div class="form-group">
                             <strong>Proveedor:</strong>
                             {{ $product->provider }}
                         </div>

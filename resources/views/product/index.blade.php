@@ -36,7 +36,6 @@
 										<th>Precio</th>
 										<th>Stock</th>
 										<th>Tamaño</th>
-										<th>Imagen</th>
 										<th>Proveedor</th>
 
                                         <th></th>
@@ -51,7 +50,6 @@
 											<td>{{ $product->price }}</td>
 											<td>{{ $product->stock }}</td>
 											<td>{{ $product->size }}</td>
-											<td>{{ $product->type }}</td>
 											<td>{{ $product->provider }}</td>
 
                                             <td>
