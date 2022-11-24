@@ -20,7 +20,7 @@
                     </div>
 
                     <div class="card-body">
-                        
+                        <img src="http://127.0.0.1:8000/argon/img/theme/<?= $product->type ?>" width="200" height="200" class="rounded-circle">
                         <div class="form-group">
                             <strong>Name:</strong>
                             {{ $product->name }}
