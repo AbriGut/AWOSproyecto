@@ -18,15 +18,14 @@
                             <a class="btn btn-primary" href="{{ route('products.index') }}"> Volver</a>
                         </div>
                     </div>
-
                     <div class="card-body">
                         <img src="http://127.0.0.1:8000/argon/img/theme/<?= $product->type ?>" width="200" height="200" class="rounded-circle">
                         <div class="form-group">
-                            <strong>Name:</strong>
+                            <strong>Nombre:</strong>
                             {{ $product->name }}
                         </div>
                         <div class="form-group">
-                            <strong>Price:</strong>
+                            <strong>Precio:</strong>
                             {{ $product->price }}
                         </div>
                         <div class="form-group">
@@ -34,7 +33,7 @@
                             {{ $product->stock }}
                         </div>
                         <div class="form-group">
-                            <strong>Size:</strong>
+                            <strong>Tamaño:</strong>
                             {{ $product->size }}
                         </div>
                         <div class="form-group">
@@ -42,10 +41,9 @@
                             {{ $product->type }}
                         </div>
                         <div class="form-group">
-                            <strong>Provider:</strong>
+                            <strong>Proveedor:</strong>
                             {{ $product->provider }}
                         </div>
-
                     </div>
                 </div>
             </div>
